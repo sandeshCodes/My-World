@@ -32,23 +32,23 @@ function Navbar() {
             <img src="/vite.svg" alt="SandeshHeka"/>
             <ul className="space-y-6 flex flex-col justify-center h-full">
                 <li>
-                    <a href="#home" className="hover:text-teal-400 flex justify-between gap-2">
-                        <FaHome size={24}/>
-                        
-                    </a>
+                <a href="#home" className="max-w-xs transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/100 flex justify-between gap-2">
+                    <FaHome size={24} />
+                 
+                </a>
                 </li>
                 <li>
-                    <a href="#about" className="hover:text-teal-400">
+                    <a href="#about" className="max-w-xs transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/100 flex justify-between gap-2">
                         <FaUser size={24}/>
                     </a>
                 </li>
                 <li>
-                    <a href="#work" className="hover:text-teal-400">
+                    <a href="#work" className="max-w-xs transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/100 flex justify-between gap-2">
                         <FaBriefcase size={24}/>
                     </a>
                 </li>
                 <li>
-                    <a href="#contact" className="hover:text-teal-400">
+                    <a href="#contact" className="max-w-xs transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/100 flex justify-between gap-2">
                         <FaEnvelope size={24}/>
                     </a>
                 </li>
